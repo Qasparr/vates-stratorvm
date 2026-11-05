@@ -3,8 +3,10 @@
 #
 # "Do what thou wilt shall be the whole of the Law."
 #
-# VATES STRATORVM — seer of layers: one search instrument for the layered
-# web. The onion engine below (crawl + local index, built ground up over
+# VATES STRATORVM — SOL, the Seer of Layers: one search instrument for
+# the layered web. (Callsign SOL — Seer Of Layers; sol, the sun, the
+# light that sees through the layers.) The onion engine below (crawl +
+# local index, built ground up over
 # a hand-written SOCKS5 client); the clear engine beside it (a Google-
 # dork composer that uses Google where Google is needed, through its own
 # API or a composed URL). Everything else is this house's own work.

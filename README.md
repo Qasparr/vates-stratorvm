@@ -1,5 +1,9 @@
 # VATES STRATORVM
 
+### VATES STRATORVM — SOL, the Seer of Layers.
+
+![The SOL seal — a radiant sun/eye over concentric layered arcs, in purple, gold, and green](assets/logo/vates-stratorvm-seal.png)
+
 ### A Scientific Illuminist instrument for searching the layered web
 
 **Authorship attributed exclusively to Johnathan 'Qasparr' Monroe (Greek, -ARR, All Rights Reserved, Without Prejudice)**
@@ -26,6 +30,8 @@ The reasoning rides with the name, as this house requires: the web is not one su
 | STRATORVM | 146 | 731 |
 | **VATES STRATORVM** | **213** | **1127** |
 
+**The callsign is SOL** — from the English gloss **S**eer **O**f **L**ayers. And SOL is itself Latin for the sun: the light that sees through the layers. The seal carries it — a radiant sun that is also an eye, set above the strata. Weighed in Latin, its own tongue: **SOL = 46** Latin ordinal, **160** Agrippa.
+
 ## II. Content Test — the four-element spec
 
 - **Inputs:** seed `.onion` addresses; publicly accessible pages fetched over Tor (SOCKS5 at `127.0.0.1:9050`); search terms; dork flags; optionally the operator's own `GOOGLE_API_KEY` / `GOOGLE_CX`.
@@ -47,6 +53,8 @@ Two engines, one CLI, **Python standard library only** — the onion engine has 
 - `google.py` — a neutral dork composer: `site:`, `filetype:`, `intitle:`, `inurl:`, `intext:`, `before:`, `after:`, `"exact phrases"`, `-exclusions`, `OR` groups. With `GOOGLE_API_KEY` + `GOOGLE_CX` set, the composed query runs through the **Google Custom Search JSON API** — the sanctioned door. Without them, the composed query and its `google.com/search` URL are printed for manual use.
 
 **The CLI** (`cli.py`) binds them: `index add`, `index crawl`, `search`, `web`, and `search-all` — the last runs the onion index and composes the Google query in one output, layer by layer.
+
+**Full reference:** [docs/API.md](docs/API.md) — every command and flag, the dork-operator table, the index schema, the environment variables, and the Python module API. The seal is drawn by `tools/make_logo.py` (PIL, deterministic, no external assets) into `assets/logo/`.
 
 ## IV. Install
 

@@ -1,5 +1,5 @@
 # 93
-# VATES STRATORVM — seer of layers.
+# VATES STRATORVM — SOL, the Seer of Layers.
 # Authorship attributed exclusively to Johnathan 'Qasparr' Monroe
 # (Greek, -ARR, All Rights Reserved, Without Prejudice).
 # Method of Science, Aim of Religion.
