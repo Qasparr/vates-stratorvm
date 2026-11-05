@@ -116,6 +116,8 @@ python3 -m unittest discover -s tests -v
 
 The suite proves, without any network: SOCKS5 reply parsing, dork composition, HTML title/text/link extraction, the FTS add-and-search round-trip on fixture pages, and the denylist hash law.
 
+**Live witness (2026-11-05):** the onion engine's first live Tor crawl is on record. Through its own hand-written SOCKS5 client it fetched the Bleats onion (`u55adh3il2rs2y3amgiopirckqq5g2uo64g5zaxvtmbakqvtyy4c3lad.onion`) — 1 page indexed, 0 fetch errors — and `search` returned the page on its own words, including the current phase text ("Prototyping the Proof of Concept"). The fetched bytes were independently md5-matched to the published page (`63d177c4…`). The seer has seen, live, at least once.
+
 ---
 
 **Flagpole of Claim and Coinage: Johnathan 'Qasparr' Monroe, ARR, All Rights Reserved, Without Prejudice. Right of claim hereby reserved and coined under the authority of the Living Man.**
