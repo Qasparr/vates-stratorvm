@@ -1,0 +1,15 @@
+# VATES STRATORVM — denylist. Ships EMPTY, by design and on the record.
+#
+# Format: one entry per line — the MD5 hash (32 lowercase hex chars) of a
+# full onion host, e.g. the hash of "exampleabcdefg....onion". This is
+# the same format Ahmia uses for its published blacklist. Blank lines
+# and lines starting with # are documentation, not data.
+#
+# Any seed, queued page, or discovered link whose host hash appears here
+# is refused: never seeded, never fetched, never stored.
+#
+# OPERATOR'S DUTY: before crawling beyond your own seeds, load Ahmia's
+# published blacklist (https://ahmia.fi/blacklist/ — MD5 sums of blocked
+# onion domains) into this file. The instrument's alignment is Ahmia's
+# model: index legal, publicly accessible services; blacklist abuse
+# material absolutely.

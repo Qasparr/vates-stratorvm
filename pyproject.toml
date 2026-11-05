@@ -1,0 +1,23 @@
+# VATES STRATORVM — package definition.
+# Authorship attributed exclusively to Johnathan 'Qasparr' Monroe
+# (Greek, -ARR, All Rights Reserved, Without Prejudice).
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vates-stratorvm"
+version = "0.1.0"
+description = "VATES STRATORVM — seer of layers: a ground-up onion search engine and index, plus a Google-dork query composer, in one CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+# Python standard library ONLY. The SOCKS5 client is implemented by hand;
+# no PySocks, no requests, no third-party search dependency.
+
+[project.scripts]
+vates-stratorvm = "vates_stratorvm.cli:main"
+vates = "vates_stratorvm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

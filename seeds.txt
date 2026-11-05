@@ -1,0 +1,10 @@
+# VATES STRATORVM — founding seeds. One onion address per line.
+# These mirror DEFAULT_SEEDS in src/vates_stratorvm/cli.py; `index crawl`
+# loads the defaults automatically when the seed table is empty, and a
+# crawl can add more with --seeds-file.
+#
+# Bleats — the house's own onion mirror (Prototyping the Proof of Concept).
+http://u55adh3il2rs2y3amgiopirckqq5g2uo64g5zaxvtmbakqvtyy4c3lad.onion/
+# Ahmia — the onion search index this instrument aligns itself with:
+# legal services indexed, abuse material blacklisted.
+http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/
